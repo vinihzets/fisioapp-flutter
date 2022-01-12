@@ -22,6 +22,7 @@ class ExerciseScreen extends StatelessWidget {
             'Feche e abra suas mãos!',
             style: TextStyle(fontSize: 20.0),
           ),
+          Text('Texto novo aqui!'),
           ElevatedButton(
             onPressed: () {
               Navigator.of(context)
